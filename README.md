@@ -1,3 +1,11 @@
+# Setup
+```
+  npm install
+  gulp
+```
+
+then open http://localhost:8080/workshop/workshop.html in a browser.
+
 # Iteration One
 ## Requirements
 - Content has headers with correct size as shown in the comp.
