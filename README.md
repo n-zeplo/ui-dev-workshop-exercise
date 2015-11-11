@@ -3,8 +3,9 @@
   npm install
   gulp
 ```
+(if gulp is not found then you need to install the gulp CLI tool globally with `npm install -g gulp`)
 
-then open http://localhost:8080/workshop/workshop.html in a browser.
+then open [http://localhost:8080/workshop/workshop.html](http://localhost:8080/workshop/workshop.html) in a browser.
 
 # Iteration One
 ## Requirements
