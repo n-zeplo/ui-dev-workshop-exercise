@@ -7,11 +7,15 @@
 
 then open [http://localhost:8080/workshop/workshop.html](http://localhost:8080/workshop/workshop.html) in a browser.
 
+# Rules of the game
+- you **may not** edit the structure of the html, but you **may** add attributes to elements *if* you feel that is necessary.
+- all your changes should be restricted to stylesheet.less (and workshop.html for adding attributes).
+
 # Iteration One
 ## Requirements
 - Content has headers with correct size as shown in the comp.
 - Page uses two column layout, fixed width of 1000px.
-- Active link in sidebar has a gray background.
+- Active link in sidebar has a gray background. (you may add classes to the static html to simulate an active link)
 
 ## Bonus Points
 - Sidebar has black background, content has white background.
