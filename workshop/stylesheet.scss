@@ -2,7 +2,6 @@
 
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  height: 100vh;
   font-size: 16px;
 }
 
@@ -12,7 +11,7 @@ body {
   justify-content: space-between;
   height: 100%;
 
-  @media (min-width: 1025px) {
+  @media (min-width: 800px) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -23,22 +22,31 @@ body {
   background-color: black;
   display: flex;
   flex-direction: column;
-  flex-wrap:wrap;
-  height: auto;
-  @media (min-width: 1025px) {
+
+  @media (min-width: 550px) {
+    flex-wrap: wrap;
+    max-height: 300px;
+  }
+
+  @media (min-width: 800px) {
     background-color: black;
     flex-shrink: 0;
-    height: 100%;
-    width:20%;
+    max-height: none;
+    height: 100vh;
+    width: 20%;
   }
 }
 
 .book-list__item {
   padding: 15px;
   background-color: black;
-  width: 46%;
+  width: 100%;
 
-  @media (min-width: 1025px) {
+  @media (min-width: 550px) {
+    width: 46%;
+  }
+
+  @media (min-width: 800px) {
     padding: 15px 15px 15px 15px;
     background-color: black;
     width: auto
@@ -49,7 +57,8 @@ body {
   width: 50%;
   text-decoration: none;
   color: deepskyblue;
-  @media (min-width: 1025px) {
+
+  @media (min-width: 800px) {
     width: auto;
   }
 }
