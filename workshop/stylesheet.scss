@@ -2,4 +2,86 @@
 
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100vh;
+  font-size: 16px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+  @media (min-width: 1025px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.book-list {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap:wrap;
+  height: auto;
+  @media (min-width: 1025px) {
+    background-color: black;
+    flex-shrink: 0;
+    height: 100%;
+    width:20%;
+  }
+}
+
+.book-list__item {
+  padding: 15px;
+  background-color: black;
+  width: 46%;
+
+  @media (min-width: 1025px) {
+    padding: 15px 15px 15px 15px;
+    background-color: black;
+    width: auto
+  }
+}
+
+.book-list__item a {
+  width: 50%;
+  text-decoration: none;
+  color: deepskyblue;
+  @media (min-width: 1025px) {
+    width: auto;
+  }
+}
+
+.book-list__item.-active {
+  padding: 15px 15px 15px 15px;
+  background-color: grey;
+  color: deepskyblue;
+}
+
+.book-details {
+  height: 100%;
+  width: auto;
+  padding: 2%;
+}
+
+.book-details__synopsis-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.book-details__synopsis-content {
+  margin: 15px 0;
+}
+
+.book-details__additional-info-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.book-details__additional-info-content {
+  margin: 15px 0;
 }
