@@ -2,4 +2,134 @@
 
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background-color: white;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+  @media (min-width: 800px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.book-list {
+  background-color: black !important;
+  display: flex;
+  flex-direction: column;
+  max-height: none;
+
+  @media (min-width: 550px) {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 300px;
+  }
+
+  @media (min-width: 800px) {
+    background-color: black;
+    flex-shrink: 0;
+    max-height: none;
+    height: 100vh;
+    width: 20%;
+  }
+}
+
+#itemthree {
+  padding-left: 0px !important;
+  font-size: 16px;
+  padding: 15px;
+  background-color: black;
+  width: 100%;
+  height: auto;
+
+  @media (min-width: 550px) {
+    padding: 15px;
+    background-color: black;
+    width: 46%;
+  }
+
+  @media (min-width: 800px) {
+    padding: 15px 15px 15px 15px;
+    background-color: black;
+    width: auto;
+  }
+
+  width: 50%;
+  text-decoration: none !important;
+  color: deepskyblue !important;
+
+  @media (min-width: 800px) {
+    width: auto;
+  }
+
+}
+
+.book-list__item {
+  font-size: 16px;
+  padding: 15px;
+  background-color: black;
+  width: 100%;
+  height: auto;
+
+  @media (min-width: 550px) {
+    padding: 15px;
+    background-color: black;
+    width: 46%;
+  }
+
+  @media (min-width: 800px) {
+    padding: 15px 15px 15px 15px;
+    background-color: black;
+    width: auto;
+  }
+}
+
+.book-list__item a {
+  width: 50%;
+  text-decoration: none;
+  color: deepskyblue;
+
+  @media (min-width: 800px) {
+    width: auto;
+  }
+}
+
+.book-list__item.-active {
+  padding: 15px 15px 15px 15px;
+  background-color: grey;
+  color: deepskyblue;
+}
+
+.book-details {
+  height: 100%;
+  width: auto;
+  padding: 2%;
+}
+
+.book-details__synopsis-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.book-details__synopsis-content {
+  margin: 15px 0;
+}
+
+.book-details__additional-info-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.book-details__additional-info-content {
+  margin: 15px 0;
 }
