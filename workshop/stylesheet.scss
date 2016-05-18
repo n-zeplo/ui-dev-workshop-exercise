@@ -92,10 +92,10 @@ body {
   }
 }
 
-.book-list__item a {
+#item_to_click {
   width: 50%;
-  text-decoration: none;
-  color: deepskyblue;
+  text-decoration: none !important;
+  color: deepskyblue !important;
 
   @media (min-width: 800px) {
     width: auto;
