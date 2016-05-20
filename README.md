@@ -9,7 +9,7 @@ then open [http://localhost:8080/workshop/workshop.html](http://localhost:8080/w
 
 # Rules of the game
 - you **may not** edit the structure of the html, but you **may** add attributes to elements *if* you feel that is necessary.
-- all your changes should be restricted to stylesheet.less (and workshop.html for adding attributes).
+- all your changes should be restricted to stylesheet.scss (and workshop.html for adding attributes).
 
 # Iteration One
 ## Requirements
@@ -35,4 +35,4 @@ then open [http://localhost:8080/workshop/workshop.html](http://localhost:8080/w
 - Menu has two columns between 550px and 800px.
 
 ## Hints
-- You'll need media queries for this. For a refresher on media queries, play around with the brower window size with [this example](http://codepen.io/anon/pen/QjomXY?editors=110). Also note that your `sass` preprocessor can help to make your media query specifiers a bit more localized within your code.
+- You'll need media queries for this. For a refresher on media queries, play around with the browser window size with [this example](http://codepen.io/anon/pen/QjomXY?editors=110). Also note that your `sass` preprocessor can help to make your media query specifiers a bit more localized within your code.
