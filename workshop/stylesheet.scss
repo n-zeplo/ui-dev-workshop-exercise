@@ -3,7 +3,24 @@
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
+  color: black;
   background-color: white;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.25em;
 }
 
 .main-content {
@@ -78,6 +95,7 @@ body {
   background-color: black;
   width: 100%;
   height: auto;
+  color: black;
 
   @media (min-width: 550px) {
     padding: 15px;
@@ -96,6 +114,7 @@ body {
   width: 50%;
   text-decoration: none !important;
   color: deepskyblue !important;
+  color: black;
 
   @media (min-width: 800px) {
     width: auto;
@@ -118,6 +137,7 @@ body {
   font-weight: bold;
   margin-bottom: 10px;
   font-size: 40px;
+  color: black
 }
 
 .book-details__synopsis-content {
