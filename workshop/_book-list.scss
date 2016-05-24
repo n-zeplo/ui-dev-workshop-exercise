@@ -16,9 +16,10 @@ $content-margins: 15px 0;
   }
 
   @include media(desktop) {
+    flex-wrap: nowrap;
     flex-shrink: 0;
     max-height: none;
-    height: $navbar-height;
+    min-height: $navbar-height;
     width: 20%;
   }
 }
@@ -27,7 +28,8 @@ $content-margins: 15px 0;
   padding: $navbar-element-padding;
 
   @include media(tablet) {
-    width: 46%;
+    width: 50%;
+    box-sizing: border-box;
   }
 
   @include media(desktop) {
