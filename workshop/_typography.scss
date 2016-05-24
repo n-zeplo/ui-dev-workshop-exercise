@@ -1,0 +1,11 @@
+$bold: bold;
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@mixin header($font-size) {
+  font-weight: $bold;
+  margin-bottom: 10px;
+  font-size: $font-size;
+}
