@@ -45,4 +45,4 @@ Before beginning part two please switch branches
   - Use Mixins for media queries
 
 ## Hints
-- You'll need media queries for this. For a refresher on media queries, play around with the brower window size with [this example](http://codepen.io/anon/pen/QjomXY?editors=110). Also note that your `sass` preprocessor can help to make your media query specifiers a bit more localized within your code.
+- You'll need media queries for this. For a refresher on media queries, play around with the browser window size with [this example](http://codepen.io/anon/pen/QjomXY?editors=110). Also note that your `sass` preprocessor can help to make your media query specifiers a bit more localized within your code.
